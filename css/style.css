@@ -311,4 +311,28 @@ section {
 	transform: translateX(10px);
 	color: var(--main-color);
 }
+
+.last-text p {
+	text-align: center;
+	padding: 25px;
+	color: var(--text-color);
+	font-size: 15px;
+	letter-spacing: 1px;
+}
 /* Contact */
+
+/* Scroll top */
+.scroll-top {
+	position: fixed;
+	bottom: 2.2rem;
+	right: 2.2rem;
+}
+
+.scroll-top i {
+	padding: 8px;
+	font-size: 1.4rem;
+	color: #fff;
+	background: var(--main-color);
+	border-radius: 5rem;
+}
+/* Scroll top */
