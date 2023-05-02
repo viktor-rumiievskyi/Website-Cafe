@@ -276,5 +276,39 @@ section {
 	font-size: 17px;
 	margin-left: 4px;
 }
-
 /* Menu */
+
+/* Contact */
+.contact {
+	padding: 50px 15% 40px;
+}
+
+.main-contact {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+	gap: 2rem;
+}
+
+.contact-content h4 {
+	font-size: 20px;
+	color: var(--text-color);
+	margin-bottom: 1.5rem;
+}
+
+.contact-content li {
+	margin-bottom: 16px;
+}
+
+.contact-content li a {
+	display: block;
+	color: var(--text-color);
+	font-size: 15px;
+	font-weight: 500;
+	transition: all .38s ease;
+}
+
+.contact-content li a:hover {
+	transform: translateX(10px);
+	color: var(--main-color);
+}
+/* Contact */
