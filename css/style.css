@@ -23,6 +23,7 @@ body {
 	color: var(--text-color);
 }
 
+/* Header */
 header {
 	position: fixed;
 	width: 100%;
@@ -94,7 +95,9 @@ span {
 	cursor: pointer;
 	display: none;
 }
+/* Header */
 
+/* Home */
 section {
 	padding: 90px 15% 8px;
 }
@@ -141,7 +144,9 @@ section {
 .btn:hover {
 	letter-spacing: 1px;
 }
+/* Home */
 
+/* Container */
 .main-text h2 {
 	font-size: var(--h2-font);
 	margin-bottom: 10px;
@@ -188,7 +193,9 @@ section {
 	transform: translateX(10px);
 	cursor: pointer;
 }
+/* Container */
 
+/* About */
 .about {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -214,3 +221,60 @@ section {
 	line-height: 32px;
 	margin-bottom: 2.3rem;
 }
+/* About */
+
+/* Menu */
+.menu-content {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+	gap: 2rem;
+	align-items: center;
+	margin-top: 4rem;
+	cursor: pointer;
+}
+
+.row img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.row {
+	transition: all .38s ease;
+	box-shadow: 5px 10px 40px rgb(0 0 0 / 8%)
+}
+
+.row:hover {
+	transform: scale(1.02);
+}
+
+.menu-text {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px 0;
+}
+
+.menu-left h4 {
+	font-size: 23px;
+}
+
+.menu-right h5 {
+	color: var(--main-color);
+	font-size: 23px;
+}
+
+.row p {
+	color: var(--second-color);
+	font-size: 15px;
+	line-height: 30px;
+	margin-bottom: 15px;
+}
+
+.star i {
+	color: var(--main-color);
+	font-size: 17px;
+	margin-left: 4px;
+}
+
+/* Menu */
